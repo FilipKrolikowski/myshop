@@ -1,0 +1,20 @@
+@import "~bootstrap/scss/bootstrap";
+
+body {
+  background-color: #fafafa;
+}
+
+.custom-btn {
+  border: 1px solid #ceb07c;
+  color: #ceb07c;
+  background: #fff;
+  font-size: 14px;
+  padding: 12px 25px;
+  font-weight: 600;
+  transition: all 0.5s;
+  &:hover {
+    background: #ceb07c;
+    color: #fff;
+    transition: all 0.5s;
+  }
+}

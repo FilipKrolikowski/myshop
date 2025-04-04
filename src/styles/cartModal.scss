@@ -1,0 +1,31 @@
+.cart {
+  margin: 0 auto;
+  .cart-title {
+    text-transform: uppercase;
+    border: 1px solid rgb(218, 218, 218);
+    background: #fff;
+    padding: 10px 40px;
+    font-size: 30px;
+    font-weight: 200;
+    border-radius: 5px;
+  }
+  .cart-total {
+    border: 1px solid rgb(218, 218, 218);
+    background: #fff;
+    padding: 20px 20px;
+    border-radius: 5px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 16px;
+    .cart-total-price {
+      font-weight: 400;
+    }
+  }
+  .cart-items-container {
+    max-height: 300px;
+    overflow-y: scroll;
+    margin: 20px 0;
+    border: 1px solid rgb(218, 218, 218);
+    padding: 0 10px;
+  }
+}
